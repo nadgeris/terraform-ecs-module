@@ -30,6 +30,7 @@ git clone https://github.com/nadgeris/terraform-modules.git
 3) update ECS_INSTANCE_TYPE, key_name(ec2 key pairs), ecs_cluster_name, security_group, subnet-1a, subnet-1b in main.tf.
 
 4) Run the below terraform command to launch ECS cluster.
+
   terraform init
 
   terraform plan
