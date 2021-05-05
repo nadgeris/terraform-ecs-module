@@ -23,6 +23,7 @@ Stores the state file in S3 Location.
 # How to use:
 
 1) clone the repo:
+
 git clone https://github.com/nadgeris/terraform-modules.git
 
 2) update secret key, access key and region in provider.tf.
