@@ -7,8 +7,8 @@ module "ecs_cluster" {
   service = "testing"
   key_name = "Sagar"
   ecs_cluster_name = "testing-ecs"
-  security_group = "sg-066a30c2c3d1fb68f"
-  subnet-1a = "subnet-0d979fb6d4e72cbc9"
-  subnet-1b = "subnet-07b0ae63f6d36ba93"
+  security_group = "sg-***********"
+  subnet-1a = "subnet-**************"
+  subnet-1b = "subnet-**************"
   ecr = ["abtest", "snyper"]
 }
