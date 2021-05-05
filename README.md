@@ -1,7 +1,10 @@
 # terraform-modules
+
 A Terraform module for building an ECS Cluster in AWS.
+
 The ECS cluster requires:
 existing VPC,subnets, security group
+
 
 This Module will be created:
 ECS clsuter with launch configuration and auto-scaling group for a cluster of ECS container instances
